@@ -31,3 +31,7 @@ Using Jensen’s inequality, we obtain a lower bound:
 `log p(x_t | x_<t) >= E_{q(z_{t-1}, z_t | x_<=t)} [ log ( p(x_t, z_{t-1}, z_t | x_<t) / q(z_{t-1}, z_t | x_<=t) ) ]`
 
 This is the **Evidence Lower Bound (ELBO)** used for training.
+
+
+![Reference Figure](ref_img.jpg)
+
